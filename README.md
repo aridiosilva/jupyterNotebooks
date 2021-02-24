@@ -20,7 +20,7 @@
 
 ![]( https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
-'''python
+```python
 
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(html_doc, 'html.parser')
@@ -41,22 +41,22 @@ soup.find_all('a') # [<a ..>, ..]
 soup.find(id="link3") # <a class="sister" href="http://example.com/tillie" id="link3">Tillie</a>
 for link in soup.find_all('a'):
     print(link.get('href')) # http://example.com/elsi, # http://example.com/lacie
-'''
+
+```
 
 ## Make soup
 
-'''python
+```python
 
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(open("index.html"))
 soup = BeautifulSoup("<html>data</html>")
-'''
+```
 
 ##Output
 
-'''python
-
+```python
 // HTML
 
 soup.prettify() #pretty print
@@ -125,11 +125,11 @@ soup.find(string=re.compile("sisters"))  // text contain sisters
 
 soup.find_all("a", class_="sister")
 
-'''
+```
 
 ## Navigation
 
-'''python
+```python
 
 //-----------------------------
 // going up/down/side
@@ -194,11 +194,11 @@ sibling_soup.c.previous_element
 sibling_soup.b.next_elements
 sibling_soup.c.previous_elements
 
-'''
+```
 
 ## Edit
 
-'''python
+```python
 
 //----------------------------
 // change exisitng tag
@@ -238,11 +238,11 @@ a_tag.i.replace_with(Beautifulsoup("<b>bold element</b>")) // replace inner html
 soup.p.string.wrap(soup.new_tag("b"))
 a_tag.i.unwrap()
 
-'''
+```
 
 ## Encoding
 
-'''python
+```python
 
 // output
 
@@ -251,11 +251,11 @@ tag.encode("utf-8")
 tag.encode("latin-1")
 tag.encode("ascii")
 
-'''
+```
 
 ## Parse only part
 
-'''python
+```python
 
 // The SoupStrainer class allows you to choose which parts of an
 // incoming document are parsed
@@ -277,4 +277,4 @@ BeautifulSoup(html_doc, "html.parser", parse_only=only_a_tags)
 BeautifulSoup(html_doc, "html.parser", parse_only=only_tags_with_id_link2)
 BeautifulSoup(html_doc, "html.parser", parse_only=only_short_strings)
 
-'''
+```
