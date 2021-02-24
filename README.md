@@ -20,7 +20,7 @@
 
 ![]( https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
-'''Python
+'''python
 
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(html_doc, 'html.parser')
@@ -45,7 +45,7 @@ for link in soup.find_all('a'):
 
 ## Make soup
 
-'''Python
+'''python
 
 from bs4 import BeautifulSoup
 
@@ -55,7 +55,7 @@ soup = BeautifulSoup("<html>data</html>")
 
 ##Output
 
-'''Python
+'''python
 
 // HTML
 
@@ -129,7 +129,7 @@ soup.find_all("a", class_="sister")
 
 ## Navigation
 
-'''Python
+'''python
 
 //-----------------------------
 // going up/down/side
@@ -198,7 +198,7 @@ sibling_soup.c.previous_elements
 
 ## Edit
 
-'''Python
+'''python
 
 //----------------------------
 // change exisitng tag
@@ -242,7 +242,7 @@ a_tag.i.unwrap()
 
 ## Encoding
 
-'''Python
+'''python
 
 // output
 
@@ -255,7 +255,7 @@ tag.encode("ascii")
 
 ## Parse only part
 
-'''Python
+'''python
 
 // The SoupStrainer class allows you to choose which parts of an
 // incoming document are parsed
