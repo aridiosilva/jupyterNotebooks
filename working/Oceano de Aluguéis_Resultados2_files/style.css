@@ -1,0 +1,289 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #04A2DD;
+	padding: 1% 0 2% 0;
+}
+
+header div {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+header img {
+	display: inline-block;
+	height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+    margin: 0 1% 0 0;
+}
+
+header h1 {
+	font-weight: bold;
+	font-size: 30px;
+	display: inline-block;
+	color: #FFFFFF;
+	padding: 5% 0 0 0;
+	vertical-align: top;
+}
+
+header nav {
+	position: absolute;
+	top: 55%;
+	right: 0;
+}
+
+header nav li {
+	display: inline;
+	margin: 0 0 0 15px; 
+}
+
+header nav a {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	color: #000000;
+}
+
+.ad-card-list {
+	width: 940px;
+	margin: 5% auto;
+}
+
+.ad-card-list > p:first-child {
+	font-size: 20px;
+	margin: 0 0 20px 0;
+}
+
+.ad-card {
+	border: 1px solid #919191;
+	box-shadow: 3px 3px 3px #919191;
+	padding: 0;
+	margin: 0 0 30px 0;
+}
+
+.apto-img {
+	height: auto; 
+    width: auto;
+    max-width: 30%; 
+    max-height: 30%;
+    opacity: 1;
+    transition: 400ms;
+    margin: 0 0 -2.5px 0;
+    padding: 0;
+}
+
+.apto-img:hover {
+	opacity: 0.5;
+}
+
+.ad-card-info {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	position: static;
+}
+
+.ad-card-info h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px 0 0 0;
+}
+
+.features {
+	margin: 5px 0 0 0;	
+}
+
+.features li {
+	display: inline;
+	margin: 10px 0 0 10px;
+	font-size: 14px;
+}
+
+.features li img{
+	height: auto; 
+    width: auto;
+	max-width: 4%; 
+    max-height: 4%;
+}
+
+.resources {
+	margin: 8px 0 0 0;
+}
+
+.resources li {
+	display: inline-block;
+	margin: 5px 0 0 5px;
+	font-size: 12px;
+	border: 1px solid #919191;
+	border-radius: 5px;
+	padding: 5px;
+	background: #EAEDED;
+}
+
+.ad-card-info > p:last-child {
+	font-size: 14px;
+	margin: 8px 0 0 5px;
+}
+
+.ad-card-price {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin: 5% 0 0 0;
+	position: relative;
+}
+
+.ad-card-price p {
+	padding: 5px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.ad-card-price > p:first-child {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.ad-card-price >p:last-child {
+	font-size: 14px;
+	margin: 35px 0 0 5px;
+}
+
+.pagination {
+	width: 940px;
+	margin: 5% auto;
+	text-align: center;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #04A2DD;
+  color: white;
+}
+
+.pagination a:not(.active):not(.inactive):hover {
+	background-color: #E96EAE;
+	color: white;
+}
+
+.pagination a.inactive {
+  background-color: #919191;
+  color: white;
+}
+
+.contacts {
+	width: 940px;
+	margin: 5% auto;
+}
+
+.contacts table {
+	margin: 20px 0 40px;
+}
+
+.contacts thead {
+	background: #E96EAE;
+	color: white;
+	font-weight: bold;
+}
+
+.contacts td, .contacts th {
+	border: 1px solid #000000;
+	padding: 10px 15px;
+}
+
+.contacts ul > li:first-child {
+	margin: 0 0 10px 0;
+}
+
+.about {
+	width: 940px;
+	margin: 5% auto;
+}
+
+.about h2 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.about p {
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+.about > p {
+	font-size: 20px;
+	text-align: center;
+	padding: 20px;
+}
+
+.about ol {
+	font-size: 20px;
+	text-align: left;
+	padding: 10px 0 0 20%;
+	list-style-type: decimal;
+}
+
+.about li {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.about li em {
+	font-style: italic;
+	color: #4D82BF;
+}
+
+footer {
+	background: #4D82BF;
+	padding: 1% 0 2% 0;
+}
+
+footer img {
+	display: block;
+	height: auto; 
+    width: auto; 
+    max-width: 50px; 
+    max-height: 50px;
+    margin-left: auto;
+  	margin-right: auto;
+  	width: 50%; 
+  	margin-bottom: 10px; 
+}
+
+footer p {
+	font-size: 15px;
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	header div, .ad-card-list, .pagination, .contacts, .about {
+		width: auto;
+	}
+
+	header h1 {
+		text-align: center;
+	}
+
+	header nav {
+		position: static;
+	}
+}
