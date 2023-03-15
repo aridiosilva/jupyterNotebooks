@@ -1,9 +1,3 @@
-
-
-
-
-
-
 ## Several Jupyter Notebooks for Data Analysis Using Python and other resources
 
 
